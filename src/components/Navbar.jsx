@@ -6,7 +6,10 @@ function Navbar({ user, onLogout }) {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">Shelf<span>Life</span></Link>
+      <div className="navbar-left">
+        <Link to="/" className="logo">Shelf<span>Life</span></Link>
+        <span className="student-credit">Mohammed Ayman Siddiqui · CS-H · Roll 13 · PRN 12414007</span>
+      </div>
       <div className="nav-links">
         <Link to="/catalogue">Browse</Link>
         <Link to="/cart" className="cart-link">
