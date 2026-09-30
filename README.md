@@ -1,9 +1,9 @@
-# ShelfLife — Secondhand Book Marketplace
+﻿# ShelfLife â€” Secondhand Book Marketplace
 
-A dense, information-rich secondhand/rare book marketplace built with React and Spring Boot — a deliberately different UX from a typical curated bookstore, focused on browsing by condition, edition, and price.
+A dense, information-rich secondhand/rare book marketplace built with React and Spring Boot â€” a deliberately different UX from a typical curated bookstore, focused on browsing by condition, edition, and price.
 
 ## Concept
-Modeled after marketplaces like AbeBooks — listings emphasize condition grading, edition details, and ISBN rather than editorial recommendations, giving buyers the specifics collectors and students actually care about.
+Modeled after marketplaces like AbeBooks â€” listings emphasize condition grading, edition details, and ISBN rather than editorial recommendations, giving buyers the specifics collectors and students actually care about.
 
 ## Features
 - Sidebar-filtered, sortable catalogue
@@ -34,7 +34,20 @@ Modeled after marketplaces like AbeBooks — listings emphasize condition gradin
 4. Visit `http://localhost:5173`
 
 ## API Endpoints
-- `GET /api/books` — list all books
-- `GET /api/books/{id}` — get one book
-- `POST /api/auth/register` — create account
-- `POST /api/auth/login` — authenticate
+- `GET /api/books` â€” list all books
+- `GET /api/books/{id}` â€” get one book
+- `POST /api/auth/register` â€” create account
+- `POST /api/auth/login` â€” authenticate
+
+## Screenshots
+
+![Home](screenshots/home.png)
+
+![Catalogue](screenshots/catalogue.png)
+
+![Book detail](screenshots/book-detail.png)
+
+![Cart](screenshots/cart.png)
+
+![Login](screenshots/login.png)
+
